@@ -13,7 +13,6 @@
 #   limitations under the License.
 
 FROM node:14.15.5
-LABEL maintainer="philippe_mulet@fr.ibm.com"
 
 # hadolint ignore=DL3017
 RUN apk update && apk upgrade
